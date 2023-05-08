@@ -26,11 +26,11 @@
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <div class="contenedor_logo">
-                    <a class="logo" href="./index.html">
-                        <img src="./img/logoShark.png" alt="logo shark">
+                    <a class="logo" href="../index.html">
+                        <img src="../img/logoShark.png" alt="logo shark">
                     </a>
                 </div>
-                <img id="verCarrito" class="carrito" src="./img/CarritoDeCompras.webp" alt="carrito-de-compras">
+                <img id="verCarrito" class="carrito" src="../img/CarritoDeCompras.webp" alt="carrito-de-compras">
                 <span id="cantidadCarrito" class="numero-de-carrito">0</span>
                 <i id="usuario" class="bi bi-person"></i>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -47,10 +47,10 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="./pages/productos.html">Productos</a>
+                                <a class="nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
                             </li>
                             </li>
                             <li class="nav-item">
@@ -62,46 +62,40 @@
             </div>
         </nav>
     </header>
-
-    <main class="main-index">
-
-        <section class="main-index-section">
-            <h1>Shark<span class="span">Fit</span></h1>
-            <p>Suplementos a tu alcance.</p>
-        </section>
-        <div class="main-index-section-marcas">
-            <h2 class="index-subtitle">Productos destacados</h2>
-            <div class="container text-center">
-                <div class="row align-items-center">
-                    <div class="col">
-                        <div class="card">
-                            <img src="./img/MusculosaGrisShark.jpg" class="card-img-top" alt="Musculosas">
-                            <div class="card-body">
-                                <h2 class="card-title">Musculosas</h2>
-                                <a href="./pages/productos.html#musculosas" class="btn btn-primary">Ver más</a>
-                            </div>
-                        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <main class="main-iniciosesion">
+        <div class="box" id="box">
+            <form action=" " method="post" class="bg-dark" autocomplete="on">
+                <fieldset>
+                    <p class="p-form">Shark<span>Fit</span></p>
+                    <h2 class="title-form">Iniciar Sesion</h2>
+                    <div class="inputBox">
+                        <input type="email" id="email-user" required>
+                        <span>Correo Electronico</span>
+                        <i></i>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="./img/RemerasShark.jpg" class="card-img-top" alt="Remeras">
-                            <div class="card-body">
-                                <h2 class="card-title">Remeras</h2>
-                                <a href="./pages/productos.html#remeras" class="btn btn-primary"> Ver más </a>
-                            </div>
-                        </div>
+                    <div class="inputBox">
+                        <input type="password" id="password-user" required>
+                        <span>Contraseña</span>
+                        <i></i>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="./img/SuplementosStarNutrition.jpg" class="card-img-top" alt="suplementos-starnutrition">
-                            <div class="card-body">
-                                <h2 class="card-title">Suplementos StarNutrition</h2>
-                                <a href="./pages/productos.html#suplementosstar" class="btn btn-primary">Ver más </a>
-                            </div>
-                        </div>
+                    <div class="links">
+                        <a href="#">¿Olvidaste tu contraseña?</a>
+                        <a href="#" id="crear-usuario">Crearme una cuenta</a>
                     </div>
-                </div>
+                    <input type="submit" id="login" value="Ingresar">
+                </fieldset>
+            </form>
+        </div>
     </main>
+
     <footer class="footer">
         <p>
             Contactanos:
@@ -130,9 +124,10 @@
     <!--libreria toastify-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <!--Js-->
-    <script src="./js/productos.js"></script>
-    <script src="./js/logica.js"></script>
-    <script src="./js/applogin.js"></script>
-    <script src="./js/carrito.js"></script>
+    <script src="../js/productos.js"></script>
+    <script src="../js/logica.js"></script>
+    <script src="../js/applogin.js"></script>
+    <script src="../js/carrito.js"></script>
 </body>
+
 </html>
