@@ -1,29 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Raleway&display=swap');
 
-/*
-font-family: 'El Messiri', sans-serif; -titulo
-font-family: 'Raleway', sans-serif; -fuente secundaria
-*/
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.logo {
-    width: 15%;
-}
-.logo img {
-    width: 40%;
-}
-
-.contenedor .logo {
-    background-color: #212529;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-}
 
 
 a {
@@ -34,6 +17,14 @@ ul {
     list-style: none;
 }
 
+.logo {
+    width: 10%;
+    
+}
+
+.logo img {
+    width: 100%;
+}
 
 p.navbar-brand {
     padding-inline: 20px;
@@ -42,7 +33,7 @@ p.navbar-brand {
 }
 
 body {
-    background-color: #808080;
+    background-color: #202529;
 }
 
 html {
@@ -55,79 +46,58 @@ div[id] {
 
 .bi {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
 }
 
 .bi:hover {
-    box-shadow: 2px 2px 30px 0 #6daeff;
+    box-shadow: 2px 2px 30px 0 #4000ff;
 }
 
 .carrito {
-    width: 10%;
-    margin: 0px 0px;
+    width: 30px;
+    margin: 0px 0 0 0px;
     position: absolute;
-    top: 15%;
+    top: 15px;
     right: 100px;
     cursor: pointer;
 }
 
 .numero-de-carrito {
-    color: rgb(255, 255, 255);
-    font-size: 5%;
+    color: white;
+    font-size: 12px;
     font-weight: 300;
     font-family: "Roboto", sans-serif;
     position: absolute;
-    top: 4%;
-    right: 40%;
+    top: 6px;
+    right: 90px;
+}
+
+.index-subtitle {
+    font-size: 33px;
 }
 
 
-.main-index {
-    width: 100%;
-    height: 100%;
-}
 
 .main-index-section {
-    padding: 15% 10px;
-    background: linear-gradient(45deg, #00000073 0%, #0a1234 99%);
+    padding: 5% ;
+    background: linear-gradient(45deg, #00000073 0%, #4000ff 99%);
 }
 
 .main-index-section h1 {
     font-family: 'El Messiri', sans-serif;
     font-size: 80px;
-    padding-inline: 100px;
+    padding-inline: 100%;
     text-align: center;
     color: #faebd7;
 }
 
-.span {
-    color: #00aaff;
-}
-
-.main-index-section p {
-    font-family: 'Raleway', sans-serif;
-    color: #faebd7;
-    text-align: -webkit-center;
-    font-size: 25px;
-    letter-spacing: 5px;
-}
 
 .main-index-section-marcas {
     padding: 50px;
     background-color: #f0f8ff;
 }
 
-.dollar-dom {
-    padding: 5px;
-    margin: 20px;
-    margin-inline: 30px;
-    font-family: 'El Messiri', sans-serif;
-    color: #eef8fe;
-}
-.bi-arrow-up{
-    color: #39d300;
-}
 .secciones-t {
     color: #f0f8ff;
     font-size: 40px;
@@ -137,30 +107,32 @@ div[id] {
     object-position: center;
     padding: 40px;
 }
-
+.shop-ontent{
+    background-color: black;
+}
 .musculosas {
     display: flex;
-    margin-inline: 60%;
-    gap: 40%;
-    margin-bottom: 40%;
+    flex-wrap:wrap-reverse;
+    gap: 10%;
+    justify-content: center;
 }
 
 .remeras {
     display: flex;
-    margin-inline: 60%;
-    gap: 40%;
-    margin-bottom: 40%;
+    flex-wrap:wrap-reverse;
+    gap: 10%;
+    justify-content: center;
 }
 
 .suplementosstar {
     display: flex;
-    margin-inline: 60%;
-    gap: 40%;
-    margin-bottom: 40%;
+    flex-wrap:wrap-reverse;
+    gap: 10%;
+    justify-content: center;
 }
 
 .card {
-    box-shadow: 0px 4px 8px 0 rgb(26, 26, 73);
+    box-shadow: 0px 4px 8px 0 #4000ff;
     max-width: 300px;
     text-align: center;
     font-family: sans-serif;
@@ -233,9 +205,9 @@ div[id] {
 }
 
 .modal-header-title:hover {
-    color: #2e31bc;
+    color: #3a1a1a;
     BORDER-BOTTOM-STYLE: OUTSET;
-    border-color: #1f5792;
+    border-color: #4000ff;
 }
 
 .modal-header-button {
@@ -265,7 +237,6 @@ div[id] {
     font-size: 15px;
     margin-inline: 60px;
 }
-
 .total-content {
     font-size: 20px;
     padding: 20px;
@@ -297,23 +268,26 @@ div[id] {
     box-shadow: 8px 9px 30px 0 #000000a0;
 }
 
-.footer {
+footer {
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, rgba(42, 6, 6, 0.45) 0%, rgba(10, 18, 52, 1) 99%);
+    background: linear-gradient(45deg, #00000073 0%, #4000ff 99%);
     margin: 0px;
-    padding: 10px;
-}
-
-.footer p {
     color: #ffffff;
 }
+
+.footer__text {
+    color: #615757;
+    text-align: center;
+}
+
+
+
 
 /*inicio de sesión*/
 
 .main-iniciosesion {
     width: 100%;
-    height: 800px;
 }
 
 .main-iniciosesion p,
@@ -323,31 +297,33 @@ span {
 
 .box {
     object-position: center;
+    text-align: center;
 }
 
 fieldset {
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.45) 0%, rgba(10, 18, 52, 1) 99%);
-    margin-inline: 500px;
+    background: linear-gradient(45deg, #00000073 0%, #4000ff 99%);
+    
     display: inline;
-    margin-top: 200px;
+    
     border: outset;
-    border-color: #00aaff;
+    border-color: #4000ff;
     border-style: double;
-    padding-inline: 100px;
+    
     padding: 40px;
-    box-shadow: 0px 68px 100px 0 #074476a0;
+    box-shadow: 0px 68px 100px 0 #4000ff;
+    text-align: center;
 }
 
 .p-form {
     font-size: 25px;
+    text-align: center;
 }
 
 .p-form span {
-    color: #00aaff;
+    color: #4000ff;
+    
 }
-#email-user input{
-color: #000000;
-}
+
 .title-form {
     color: #ffffff;
 }
@@ -363,13 +339,10 @@ color: #000000;
         font-size: 18px;
     }
 
-    .main-index-section-marcas {
-        padding: 0px;
-    }
-
     .index-subtitle {
-        object-position: center;
+        text-align: center;
         margin-inline: 30px;
+        color: white;
     }
 
     .row>* {
@@ -378,6 +351,9 @@ color: #000000;
         margin: 20px;
         margin-inline: 50px;
     }
+
+    /*productos*/
+
 
 
     .card {
@@ -389,24 +365,12 @@ color: #000000;
         margin-inline: 0px 10px
     }
 
-    /*iniciar sesión*/
-    fieldset {
-        margin-inline: 10px;
-    }
 
-    .main-iniciosesion {
-        width: 100%;
-        height: 800px;
-    }
 
-    .footer {
-        width: 100%;
-        height: 100%;
-    }
 
     /*carrito*/
     .carrito {
-        width: 25%;
+        width: 25px;
         top: 18px;
     }
 
@@ -466,24 +430,17 @@ color: #000000;
         padding: 0px;
     }
 
+    /*productos*/
+
+
+
+
     .card {
         max-width: 140px;
     }
 
-    /*iniciar sesión*/
-    fieldset {
-        margin-inline: 100px;
-    }
 
-    .main-iniciosesion {
-        width: 100%;
-        height: 800px;
-    }
 
-    .footer {
-        width: 100%;
-        height: 100%;
-    }
 
     /*carrito*/
     .modal-container {
@@ -524,23 +481,10 @@ color: #000000;
         padding: 25px;
     }
 
+    /*productos*/
+
     .card {
         max-width: 200px;
-    }
-
-    /*iniciar sesión*/
-    fieldset {
-        margin-inline: 250px;
-    }
-
-    .main-iniciosesion {
-        width: 100%;
-        height: 800px;
-    }
-
-    .footer {
-        width: 100%;
-        height: 100%;
     }
 
     /*carrito*/
@@ -579,23 +523,10 @@ color: #000000;
     }
 
     .card {
-        max-width: 290px;
+        max-width: 200px;
     }
 
-    /*iniciar sesión*/
-    .main-iniciosesion {
-        width: 100%;
-        height: 800px;
-    }
 
-    fieldset {
-        margin-inline: 300px;
-    }
-
-    .footer {
-        width: 100%;
-        height: 100%;
-    }
 
     /*carrito*/
     .modal-container p {
@@ -624,16 +555,16 @@ color: #000000;
 }
 
 @media only screen and (min-width: 1200px) {
-
+    
     .carrito {
-        width: 30%;
+        width: 30px;
         margin: 0px 0 0 0px;
         position: absolute;
         top: 15px;
         right: 100px;
         cursor: pointer;
     }
-
+    
     .numero-de-carrito {
         color: white;
         font-size: 12px;
@@ -643,18 +574,17 @@ color: #000000;
         top: 6px;
         right: 90px;
     }
-
-
+    
+    
     .main-index {
         width: 100%;
-        height: 100%;
     }
-
+    
     .main-index-section {
         padding: 15% 10px;
-        background: linear-gradient(45deg, #00000073 0%, #0a1234 99%);
+        background: linear-gradient(45deg, #00000073 0%, #4000ff 99%);
     }
-
+    
     .main-index-section h1 {
         font-family: 'El Messiri', sans-serif;
         font-size: 80px;
@@ -662,31 +592,24 @@ color: #000000;
         text-align: center;
         color: #faebd7;
     }
-
+    
     .span {
-        color: #00aaff;
+        color: #4000ff;
     }
-
+    
     .main-index-section p {
         font-family: 'Raleway', sans-serif;
         color: #faebd7;
-        text-align: -webkit-center;
+        text-align: center;
         font-size: 25px;
         letter-spacing: 5px;
     }
-
+    
     .main-index-section-marcas {
         padding: 50px;
-        background-color: #f0f8ff;
+        background-color: black;
     }
-
-    .row>* {
-        display: block;
-    }
-
-    /*.col {
-        margin-block-start: 40px;
-    }*/
+    
     .secciones-t {
         color: #f0f8ff;
         font-size: 40px;
@@ -696,27 +619,27 @@ color: #000000;
         object-position: center;
         padding: 40px;
     }
-
+    
 
     .card {
-        box-shadow: 0px 4px 8px 0 #5d81ad;
+        box-shadow: 0px 4px 8px 0 #4000ff;
         max-width: 300px;
         text-align: center;
         font-family: sans-serif;
     }
-
+    
     .card img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
+    
     .price {
         color: #808080;
         font-size: 22px;
     }
-
-
+    
+    
     .card button {
         outline: 0;
         padding: 12px;
@@ -727,11 +650,11 @@ color: #000000;
         width: 100%;
         font-size: 18px;
     }
-
+    
     .card button:hover {
         opacity: 0.8;
     }
-
+    
     /*modal content*/
     .modal-container {
         width: 90%;
@@ -749,11 +672,11 @@ color: #000000;
         border-radius: 20px;
         box-shadow: 2px 4px 20px 0 #ffffff2e;
     }
-
+    
     .modal-container::-webkit-scrollbar {
         display: none;
     }
-
+    
     .modal-header {
         display: flex;
         justify-content: space-around;
@@ -761,7 +684,7 @@ color: #000000;
         color: #ffffff;
         width: 100%;
     }
-
+    
     .modal-header-title {
         justify-self: start;
         font-size: 25px;
@@ -770,18 +693,18 @@ color: #000000;
         letter-spacing: 4px;
         BORDER-BOTTOM-STYLE: OUTSET;
     }
-
+    
     .modal-header-title:hover {
-        color: #00aaff;
+        color: #4000ff;
         BORDER-BOTTOM-STYLE: OUTSET;
         border-color: #00aaff;
     }
-
+    
     .modal-header-button {
         cursor: pointer;
         font-size: 20px;
     }
-
+    
     .modal-container>.modal-content {
         display: flex;
         flex-direction: row;
@@ -790,40 +713,39 @@ color: #000000;
         width: 80%;
         margin: 10px;
     }
-
+    
     .modal-container p {
         color: #ffffff;
     }
-
+    
     .modal-container>div>img {
         height: 120px;
         width: 120px;
     }
-
+    
     .btn-outline-info {
         font-size: 15px;
         margin-inline: 60px;
     }
-
     .total-content {
         font-size: 20px;
         padding: 20px;
         text-align: center;
         padding-top: 20px;
     }
-
+    
     .delete-product {
         cursor: pointer;
     }
-
+    
     .sumar {
         cursor: pointer;
     }
-
+    
     .restar {
         cursor: pointer;
     }
-
+    
     .logos-png {
         width: 200px;
         margin: 10px;
@@ -831,60 +753,48 @@ color: #000000;
         padding: 20px;
         background-color: #eef8fe;
     }
-
+    
     .logos-png:hover {
         box-shadow: 8px 9px 30px 0 #000000a0;
     }
-
-    .footer {
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(45deg, rgba(0, 0, 0, 0.45) 0%, rgba(10, 18, 52, 1) 99%);
-        margin: 0px;
-        padding: 10px;
-    }
-
-    .footer p {
-        color: #281f1f;
-    }
-
+    
+    
+    
     /*inicio de sesión*/
-
+    
     .main-iniciosesion {
         width: 100%;
         height: 800px;
     }
-
+    
     .main-iniciosesion p,
     span {
         color: #ffffffcc;
     }
-
+    
     .box {
         object-position: center;
     }
-
+    
     fieldset {
-        background: linear-gradient(45deg, rgba(0, 0, 0, 0.45) 0%, rgba(10, 18, 52, 1) 99%);
-        margin-inline: 500px;
+        background: linear-gradient(45deg, #00000073 0%, #4000ff 99%);
+        margin-inline: 50vh;
         display: inline;
-        margin-top: 200px;
+        margin-top: 20vh;
         border: outset;
-        border-color: #00aaff;
+        border-color: #4000ff;
         border-style: double;
-        padding-inline: 100px;
-        padding: 40px;
-        box-shadow: 0px 68px 100px 0 #074476a0;
+        box-shadow: 0px 68px 100px 0 #4000ff;
     }
-
+    
     .p-form {
         font-size: 25px;
     }
-
+    
     .p-form span {
-        color: #00aaff;
+        color: #4000ff;
     }
-
+    
     .title-form {
         color: #ffffff;
     }
