@@ -9,7 +9,7 @@ crearUser.addEventListener("click", () => {
         `
         <form action=" " method="post" class="bg-dark" autocomplete="on">
             <fieldset>
-                <p class="p-form">KaosTech</p>
+                <p class="p-form">SharkFit</p>
                 <h2 class="title-form">Crear Usuario</h2>
                 <div class="inputBox ">
                     <input type="name" id="name-user" required>
